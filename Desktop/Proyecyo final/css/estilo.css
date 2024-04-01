@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: end;
+}
+
+.navbar-brand img {
+  height: 30px;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+.navbar-nav .nav-link:hover {
+  border: 0;
+  border-radius: 8px;
+}
+.navbar-nav .nav-link:active {
+  transform: scale(0.9);
+}
+
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Lily Script One", system-ui;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+.bio {
+  padding-top: 50px;
+}
+
+.jumbotron {
+  background-image: url(../img/dukiriver.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+.jumbotron h1 {
+  padding: 40px;
+}
+
+.nleft {
+  margin: 30px;
+  margin-top: 50px;
+}
+
+.dukifoto6 {
+  height: 80vh;
+  object-fit: cover;
+}
+
+.nright {
+  margin: 30px;
+  margin-top: 50px;
+}
+
+.dukibernabeu {
+  height: 100vh;
+}
+
+.tabla td,
+.tabla th {
+  padding: 20px;
+}
+
+.boton1 {
+  border: 0;
+  background-image: linear-gradient(150deg, black, purple, violet);
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  padding: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+button span {
+  background-color: #111;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+button:hover span {
+  background: none;
+}
+.boton2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: #005AA7;
+  background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  
+  background: linear-gradient(to right, #FFFDE4, #005AA7);   
+  border: none;
+  width: 10%;
+  margin: 20px auto;
+  font-size: 16px;
+  padding: 4px;
+  height: 30px;
+  cursor: pointer;
+border-radius: 5px;
+}
+#fechas {
+  background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+.img-thumbnail {
+  height: 50vh;
+  width: 100%;
+}
+
+.d-item img {
+  height: 15vh;
+   width: 15%;
+   transition:ease 0,5s;
+}
+.fondoalbumes {
+  background-image: url(../img/dukimar.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.galeria {
+  padding: 20px;
+  background-image: url(../img/ada.png);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.formulario {
+  background-image: url(../img/desdeelfindelmundo.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+footer {
+  padding: 20px;
+  color: white;
+  position: relative;
+   bottom: 0;
+}
+footer .redes a {
+  color: white;
+  letter-spacing: 20px;
+  font-size: 40px;
+}
+@media (max-width: 600px) {
+
+  .tabla td {
+    font-size: 0.7rem;
+    transition: ease 0.5s;
+  }
+  button a{
+    font-size:0.7rem;
+  }
+  .dukibernabeu{
+    height: 50vh;
+    transition: ease 0.5s;
+  }
+}
+@media (max-width: 435px) {
+
+  .tabla td {
+    font-size: 0.5rem;
+    transition: ease 0.5s;
+  }
+  button a{
+    font-size:0.5rem;
+  }
+  .dukibernabeu{
+    height: 40vh;
+    transition: ease 0.5s;
+  }
+}
+@media (max-width: 380px) {
+
+  .tabla td {
+    font-size: 0.4rem;
+    transition: ease 0.5s;
+  }
+  button a{
+    font-size:0.5rem;
+  }
+  .dukibernabeu{
+    height: 40vh;
+    transition: ease 0.5s;
+  }
+}
+@media (min-width: 1200px) {
+
+  .d-item img {
+    height: 30vh;
+    width: 15%;
+  }
+}
